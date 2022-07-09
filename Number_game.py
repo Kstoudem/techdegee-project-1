@@ -37,8 +37,9 @@ def start_game():
             print("   Good Luck!")
             start_game()
           else:
-            print("             Thanks for playing")
-            break
+            print("               END OF GAME")
+            print("           Thanks for playing")
+          break
                              
     except ValueError:
       print("   try agian, 1-50")
