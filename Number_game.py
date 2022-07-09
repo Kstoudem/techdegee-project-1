@@ -31,6 +31,10 @@ def start_game():
           print("       Congrats, you got it")
           print("       The correct answer is {}".format(answer))
           print("       It took {} attempts".format(attempts))
+           if attempts < highscore:
+            print("     New Highscore!")
+          else:
+            print(" Try again to beat highscore.")
           print("--------------------------------------------------")
           play_again = input("      Do you want to play again? (yes/no) ")
           if play_again == "yes":
